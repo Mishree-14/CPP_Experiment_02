@@ -1,1 +1,67 @@
-# CPP_Experiment_02
+# C++ Experiment 2: Study and Implementation of Data Types & Storage Classes
+
+## Aim
+To:
+> Understand and use data types in C++
+> 
+> Explore storage classes – auto, static, extern, register
+
+> Learn about variable scope and how many bytes are allocated to each data type
+
+## Objectives
+🔹 Apply different storage classes
+🔹 Understand the storage, scope, and default values of each class
+🔹 Learn how to check the memory size of data types using sizeof
+
+## Program Overview
+### Syntax of the program
+We create a user-defined function to see how variables behave under different storage classes.
+
+The main() function calls that user-defined function.
+
+We use the sizeof operator to find how many bytes are used by each data type.
+
+### Auto Storage Class
+Auto is the default storage class for all local variables.
+
+These variables exist inside functions and get deleted when function ends.
+
+Their default value is undefined (garbage).
+```
+auto int x;
+```
+### Extern Storage Class
+Used to refer to a global variable declared outside the function.
+
+extern tells the compiler the variable exists somewhere else (cannot initialize it here).
+
+Its default value is garbage.
+```
+extern int x;
+```
+###Static Storage Class
+Keeps the variable alive through all function calls – it doesn’t reset.
+
+Used mostly in functions to preserve previous values.
+
+Default value is zero (0).
+```
+static int x;
+```
+### Register Storage Class
+Tells compiler to store the variable in a CPU register (for faster access).
+
+You can’t use &x with register variables because they don’t have a memory address.
+
+Default value is garbage.
+```
+register int x;
+```
+### What I Used
+Storage Classes: auto, extern, static, register
+
+Data Types: int, float, char, bool, short, long, double
+
+sizeof operator to check data type sizes
+
+### Sample Output
