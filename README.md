@@ -114,5 +114,20 @@ Address of global variable a: 0x404040
 ```
 #### Extern Stoareg Class
 ```
+Address of func variable a: 0x404040
+Size of variable: 4
+The variable is :4
 
+Address of func variable a: 0x404040
+Size of variable: 4
+The variable is :5
+
+Address of func variable a: 0x404040
+Size of variable: 4
+The variable is :6
+
+The variable is :6
+Address of global variable a: 0x404040
 ```
+#### Size of datatype
+
