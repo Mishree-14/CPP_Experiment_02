@@ -39,7 +39,7 @@ Its default value is garbage.
 ```
 extern int x;
 ```
-###Static Storage Class
+### Static Storage Class
 Keeps the variable alive through all function calls – it doesn’t reset.
 
 Used mostly in functions to preserve previous values.
