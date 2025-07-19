@@ -65,3 +65,23 @@ Data Types: int, float, char, bool, short, long, double
 sizeof operator to check data type sizes
 
 ### Sample Output
+#### Auto Storage Class
+```Address of func variable a: 0x7ffccd69c61c
+Size of variable: 4
+The variable is :6
+
+Address of func variable a: 0x7ffccd69c61c
+Size of variable: 4
+The variable is :6
+
+Address of func variable a: 0x7ffccd69c61c
+Size of variable: 4
+The variable is :6
+
+The variable is :7
+Address of global variable a: 0x404040
+```
+#### Static Storage Class
+```
+
+```
