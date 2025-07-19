@@ -130,4 +130,13 @@ The variable is :6
 Address of global variable a: 0x404040
 ```
 #### Size of datatype
-
+```
+Size of various datatypes
+Integer: 4
+Float: 4
+Boolean: 1
+Long Integer: 8
+Short Integer: 2
+Double: 8
+Character: 1
+```
