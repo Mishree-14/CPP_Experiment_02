@@ -100,5 +100,19 @@ Address of global variable a: 0x404040
 ```
 #### Register Storage Class
 ```
+Size of variable: 4
+The variable is :-1170925895
+
+Size of variable: 4
+The variable is :-1170925895
+
+Size of variable: 4
+The variable is :-1170925895
+
+The variable is :4
+Address of global variable a: 0x404040
+```
+#### Extern Stoareg Class
+```
 
 ```
