@@ -13,7 +13,7 @@ To:
 🔹 Understand the storage, scope, and default values of each class
 🔹 Learn how to check the memory size of data types using sizeof
 
-## Program Overview
+## Theory
 ### Syntax of the program
 We create a user-defined function to see how variables behave under different storage classes.
 
